@@ -1,11 +1,3 @@
-/* 
- * Proyecto #2 - Directo a tu puerta
- * Algoritmos y Estructuras de Datos - UCV (1-2026)
- *
- * Compilación: g++ -std=c++11 -O2 solucion.cpp -o solucion
- * Ejecución:   ./solucion pedidos.in centrales.in procesamiento.in repartidores.in calles.in
- */
-
 #include <iostream>
 #include <fstream>
 #include <string>
@@ -14,10 +6,6 @@
 
 using namespace std;
 
-// =======================================================
-// CONSTANTES EN ENTEROS (REEMPLAZO TOTAL DE ENUM)
-// =======================================================
-
 // Tipos de Procesamiento (Enum 'proceso' del enunciado)
 const int COMIDA = 0;
 const int ROPA = 1;
@@ -25,7 +13,6 @@ const int MUEBLE = 2;
 const int ELECTRONICO = 3;
 const int PROCESO_DESCONOCIDO = -1;
 
-// Esquemas de Procesamiento (Enum 'esque' del enunciado)
 const int RAPIDO = 0;
 const int SECUENCIAL = 1;
 const int PARALELO = 2;
